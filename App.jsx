@@ -9,7 +9,7 @@ import CompA from "./component/compA";
 export default function App() {
   return (
     <div className="App">
-      {/* <BrowserRouter>
+      <BrowserRouter>
         <Nav />
         <Routes>
           <Route path="/Home" element={<Home />} />
@@ -17,7 +17,7 @@ export default function App() {
           <Route path="/About" element={<About />} />
           <Route path="/*" element={<NotFound />} />
         </Routes>
-      </BrowserRouter> */}
+      </BrowserRouter>
       <CompA />
       <CompB />
     </div>
